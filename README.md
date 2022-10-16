@@ -1,5 +1,32 @@
 # JAVA Cheatsheet
 
+<table>
+<td>
+
+* [Hello World](#hello-world)
+* [Variables](#variables)
+* [Input/Output](#inputoutput)
+* [Loops](#loops)
+* [Function & Return](#functionreturnclass)
+
+</td>
+<td>
+
+* [Extern file](#extern-file)
+* [Logic](#logic)
+* [Converting](#converting)
+* [Projects](#projects)
+
+</td>
+</table>
+
+## Hello world
+```java
+public static void main(String[] args) {
+  System.out.println("Hello, world.");
+}
+```
+
 ## Variables
 ### Types
 ```java
@@ -43,7 +70,7 @@ public class ClassName {}
 ```
 ### Function
 ```java
-// Normal
+// Basic
 public static void name() {}
 
 // Main
@@ -54,7 +81,7 @@ public static void main(String[] args) {}
 public static int name() { return 5; }
 ```
 
-## Another file
+## Extern file
 ### Import file
 ```java
 anotherFileClass x = new anotherFileClass();
@@ -83,3 +110,6 @@ Integer.parseInt(x);
 // to the float
 Float.parseFloat(x);
 ```
+
+## Projects
+ - Calculator
