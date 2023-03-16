@@ -20,6 +20,11 @@
 </td>
 </table>
 
+## Compiling
+```sh
+javac App.java && java App.java
+```
+
 ## Hello world
 ```java
 public static void main(String[] args) {
